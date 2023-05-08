@@ -1,96 +1,88 @@
 .gradient-background {
-    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
-  }
-  
-        
-        body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-
-		.container {
-			max-width: 800px;
-			margin: 0 auto;
-			padding: 20px;
-			display: flex;
-		}
-
-		.posts {
-			flex-grow: 1;
-			margin-right: 20px;
-		}
-
-		.post {
-			background-color: #f8f8f8;
-			border: 1px solid #ddd;
-			padding: 10px;
-			margin-bottom: 20px;
-			height: 200px;
-			overflow: hidden;
-			position: relative;
-		}
-
-		.post h2 {
-			margin-top: 0;
-		}
-
-		.post p {
-			margin-bottom: 0;
-		}
-
-		.post-footer {
-			font-size: 12px;
-			color: #888;
-			margin-top: 10px;
-		}
-
-		.post-footer a {
-			color: #888;
-			text-decoration: none;
-		}
-
-		.post-footer a:hover {
-			color: #555;
-		}
-
-		.read-more {
-			position: absolute;
-			bottom: 10px;
-			right: 10px;
-		}
-
-		.sidebar {
-			flex-basis: 200px;
-		}
-
-		.sidebar h3 {
-			margin-top: 0;
-		}
-
-		.sidebar ul {
-			list-style: none;
-			padding: 0;
-			margin: 0;
-		}
-
-		.sidebar li {
-			margin-bottom: 10px;
-		}
-
-		.sidebar a {
-			color: #888;
-			text-decoration: none;
-		}
-
-		.sidebar a:hover {
-			color: #555;
-		}
+	background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+}
 
 
-	
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
 
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+}
 
+.posts {
+	flex-grow: 1;
+	margin-right: 20px;
+}
 
+.post {
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin-bottom: 20px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+.post h2 {
+	margin-top: 0;
+}
+
+.post p {
+	margin-bottom: 0;
+}
+
+.post-footer {
+	font-size: 12px;
+	color: #888;
+	margin-top: 10px;
+}
+
+.post-footer a {
+	color: #888;
+	text-decoration: none;
+}
+
+.post-footer a:hover {
+	color: #555;
+}
+
+.read-more {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.sidebar {
+	flex-basis: 200px;
+}
+
+.sidebar h3 {
+	margin-top: 0;
+}
+
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar li {
+	margin-bottom: 10px;
+}
+
+.sidebar a {
+	color: #888;
+	text-decoration: none;
+}
+
+.sidebar a:hover {
+	color: #555;
+}
