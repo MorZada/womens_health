@@ -1,16 +1,8 @@
 
-function goToForums() {
-    alert("Forums");
-}
+$(".btn-store").on("click", function() {
+    window.open("./store.html","_self")
+})
 
-function togglePost(post) {
-    var content = post.querySelector('.post-content');
-    var readMore = post.querySelector('.read-more');
-    if (content.classList.contains('expanded')) {
-        content.classList.remove('expanded');
-        readMore.textContent = 'Read More';
-    } else {
-        content.classList.add('expanded');
-        readMore.textContent = 'Read Less';
-    }
-}
+$("header.html", function(data){
+    $("#header").replaceWith(data);
+});
