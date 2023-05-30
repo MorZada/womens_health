@@ -1,6 +1,10 @@
-.background {
-  background: #F5F5F5
+.title {
+  color: #986C4A;
 }
+
+.container {
+  display: grid;
+ }
 
 
 .icon-square {
