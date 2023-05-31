@@ -1,10 +1,16 @@
+body {
+  background-color: #f8f7f6;
+}
+
 .title {
   color: #986C4A;
 }
 
-.container {
+/* .container {
   display: grid;
- }
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+ } */
 
 
 .icon-square {
