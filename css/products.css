@@ -6,7 +6,7 @@ body {
 .product {
   background-color: #E7E4DA;
   margin-left: 8%;
-  max-height: 260px;
+  max-height: 262px;
 }
 
 .btn-add {
@@ -15,8 +15,8 @@ body {
 
 .btn-view {
     background-color: blue;
-    height: 54px;
-    width: 130px;
+    height: 56px;
+    width: 140px;
     
   }
 
@@ -59,7 +59,7 @@ body {
   }
 
   .favorite:hover {
-    background-color: #00BF63;
+    background-color: red;
   }
 
   .card-text {
