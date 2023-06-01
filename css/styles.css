@@ -2,24 +2,49 @@ body {
   background-color: #f8f7f6;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+ }
+
+ .grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item:first-child {
+  grid-column: 1 / span 3; /* Set the first item to span across three columns */
+}
+
+.main-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .title {
   color: #986C4A;
 }
 
-/* .container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
- } */
 
 
-.icon-square {
+/* .icon-square {
   width: 3rem;
   height: 3rem;
   border-radius: 0.75rem;
-}
+} */
 
-.profile-img {
+/* .profile-img {
   border-radius: 50%;
   height: 100px;
-}
+} */
+
