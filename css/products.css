@@ -6,7 +6,8 @@ body {
 .product {
   background-color: #E7E4DA;
   margin-left: 8%;
-  max-height: 262px;
+  margin-bottom: 30px;
+  /* max-height: 262px; */
 }
 
 .btn-add {
@@ -32,7 +33,6 @@ body {
   }
   
   .btn-view:hover {
-    /* border: 1px solid #777; */
     opacity: 80%;
   }
 
@@ -53,6 +53,11 @@ body {
     display: inline-block;
   }
 
+  .alltips {
+    min-width: 30%;
+    margin-bottom: 32px;
+  }
+
   .favorite {
     display: block;
     float: left;
@@ -62,12 +67,16 @@ body {
     background-color: red;
   }
 
-  .card-text {
-    max-width: 60%;
+  .product-desc {
+    height: 3em; 
   }
 
- .card-bottom {
+ .card-bottom-section {
   margin-top: 16px;
+ }
+
+ .img-frame {
+  display: inline-block
  }
 
 
