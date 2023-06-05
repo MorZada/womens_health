@@ -3,22 +3,6 @@
   margin-right: 5px;
 }
 
-div.gallery {
-  margin: 15px;
-  float: right;
-  width: 300px;
-}
-
-div.gallery:hover {
-  opacity: 80%;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-  max-height: 200px;
-  max-width: 360px;
-}
 
 h6.desc {
   padding: 15px;
@@ -30,9 +14,21 @@ h6.desc {
   text-decoration-color: black;
 }
 
-/* .store-img {
+div.gallery {
+  margin: 15px;
+  float: right;
+  width: 300px;
+}
+
+div.gallery:hover {
+  opacity: 80%;
+}
+
+.store-img {
+  width: 100%;
+  height: auto;
   max-height: 200px;
   max-width: 360px;
-} */
+}
 
 
