@@ -1,6 +1,6 @@
 const fs = require('node:fs');
 
-function myFunction() {
+function responsiveTopnav() {
     var topnav = document.getElementById("myTopnav");
     if (topnav.className === "topnav") {
         topnav.className += " responsive";

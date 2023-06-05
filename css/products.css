@@ -9,10 +9,6 @@ div.gallery {
   width: 300px;
 }
 
-/* div.gallery:hover {
-  opacity: 80%;
-} */
-
 
   .star {
     max-width: 16px;
@@ -26,9 +22,7 @@ div.gallery {
     float: start;
   }
   
-  .btn-view:hover {
-    opacity: 80%;
-  }
+
 
 
   .dot {
@@ -48,16 +42,12 @@ div.gallery {
     margin-bottom: 32px;
   }
 
-  .favorite {
-    z-index: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
+
+
+  .btn-view {
+      float: left;
   }
 
-  .favorite:hover {
-    background-color: #00BF63;
-  }
 
   .product-desc {
     height: 3em; 
