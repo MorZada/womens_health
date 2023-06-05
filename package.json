@@ -1,5 +1,28 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.0-alpha3"
-  }
+  },
+  "name": "women-health",
+  "version": "1.0.0",
+  "description": "FemCycle.io",
+  "main": "products.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorZada/womens_health.git"
+  },
+  "keywords": [
+    "women",
+    "health",
+    "fem"
+  ],
+  "author": "Mor Zada Naveh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MorZada/womens_health/issues"
+  },
+  "homepage": "https://github.com/MorZada/womens_health#readme"
 }
