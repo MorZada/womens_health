@@ -1,22 +1,24 @@
 
-var items = [
-    {
-        name: 'אנאבלה', desc: 'משאבת חלב המחקה את פעולת הלשון של התינוק/ת.', img: "./images/anabella_pump.png"
-        , eco: 'אקולוגי', israel: "מיוצר בישראל",
-        url: "https://www.annabella-pump.co.il/"
-    },
-    {
-        name: 'ביאמבה', desc: 'משאבת חלב המתחברת לחזיה, ומאפשרת שאיבה ללא שימוש בידיים.', img: "./images/biamba_pump.png"
-        , eco: 'אקולוגי', israel: "מיוצר בישראל",
-        url: "https://biamba.co.il/"
-    },
-    
-];
+// Extract the value from the query parameter
+const urlParams = new URLSearchParams(window.location.search);
+const scriptValue = urlParams.get('script');
 
-var template = Handlebars.compile(document.getElementById("product-template").innerHTML);
-var itemList = document.getElementById("product-list");
+// Dynamically load the JavaScript file based on the value
+function loadScript(scriptValue) {
+  const scriptElement = document.createElement('script');
 
-items.forEach(function (item) {
-    var html = template(item);
-    itemList.innerHTML += html;
-});
+  // Set the source of the script based on the value
+  if (scriptValue === 'period_underwear') {
+    scriptElement.src = 'period_underwear.js';
+  } else if (scriptValue === 'pumps') {
+    scriptElement.src = 'pumps.js';
+  } else if (scriptValue === 'apps') {
+    scriptElement.src = 'apps.js';
+  }
+
+  // Append the script element to the HTML body
+  document.body.appendChild(scriptElement);
+}
+
+// Call the function to load the script based on the value
+loadScript(scriptValue);

@@ -1,7 +1,7 @@
 
 var items = [
     {
-        category: 'תחתוני מחזור', page: './pumps.html', img: "./images/underwear.jpg",
+        category: 'תחתוני מחזור', page: './products.html?script=period_underwear', img: "./images/period_underwear.jpg",
     },
     {
         category: 'תחתוניות', page: './pumps.html', img: "./images/pantyliner.jpg",
@@ -25,10 +25,10 @@ var items = [
         category: 'מכנסי טיולים', page: './pumps.html', img: "./images/pants.jpg",
     },
     {
-        category: 'משאבות הנקה', page: './products_pumps.html', img: "./images/pumps.jpg",
+        category: 'משאבות הנקה', page: './products.html?script=pumps', img: "./images/pumps.jpg",
     },
     {
-        category: 'אפליקציות', page: './pumps.html', img: "./images/mobile.jpg",
+        category: 'אפליקציות', page: './products.html?script=apps', img: "./images/mobile.jpg",
     },
 
     
