@@ -2,6 +2,11 @@ body {
   background-color: #F8F7F6;
 }
 
+ul {
+  padding: 0;
+    list-style-type: none;
+} 
+
 div.gallery {
   margin: 15px;
   float: right;

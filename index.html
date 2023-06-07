@@ -38,91 +38,28 @@
 
     <h6 class="title my-4 mx-3">מוצרי FemTech</h6>
 
-    <div class="gallery cols-md-3 cols-lg-4">
-      <a target="_self" href="./pumps.html">
-        <img class="store-img" src="./images/underwear.jpg" alt="תחתוני מחזור" width="600" height="200">
-      </a>
-      <h6 class="desc">תחתוני מחזור</h6>
-    </div>
+    <ul id="store-list"></ul>
 
-
-    <div class="gallery">
-      <a target="_self" href="./trip_pants.html">
-        <img class="store-img" src="./images/pantyliner.jpg" alt="תחתוניות" width="600" height="400">
-      </a>
-      <h6 class="desc">תחתוניות</h6>
-    </div>
-
-
-    <div class="gallery">
-      <a target="_self" href="./pumps.html">
-        <img class="store-img" src="./images/menstrual_cup.jpg" alt="גביעוניות" width="600" height="400">
-      </a>
-      <h6 class="desc">גביעוניות</h6>
-    </div>
-
-
-    <div class="gallery">
-      <a target="_self" href="./pumps.html">
-        <img class="store-img" src="./images/thermometer.jpg" alt="מדחום ביוץ" width="600" height="400">
-      </a>
-      <h6 class="desc">מדחום ביוץ</h6>
-    </div>
-
-
-    <div class="gallery">
-      <a target="_self" href="./pumps.html">
-        <img class="store-img" src="./images/nursing_pads.jpg" alt="רפידות הנקה" width="600" height="400">
-      </a>
-      <h6 class="desc">רפידות הנקה</h6>
-    </div>
-
-
-    <div class="gallery">
-      <a target="_self" href="./pumps.html">
-        <img class="store-img" src="./images/pelvic_floor_trainer.jpg" alt="מאמני רצפת אגן" width="600" height="400">
-      </a>
-      <h6 class="desc">מאמני רצפת אגן</h6>
-    </div>
-
-
-    <div class="gallery">
-      <a target="_self" href="./pumps.html">
-        <img class="store-img" src="./images/deodorant.jpg" alt="דאודורנט ללא כימיקלים" width="600" height="400">
-      </a>
-      <h6 class="desc">דאודורנט ללא כימיקלים</h6>
-    </div>
-
-
-    <div class="gallery">
-      <a target="_self" href="./pumps.html">
-        <img class="store-img" src="./images/pants.jpg" alt="מכנסי טיולים" width="600" height="400">
-      </a>
-      <h6 class="desc">מכנסי טיולים</h6>
-    </div>
-
-    <div class="gallery">
-      <a target="_self" href="./products_pumps.html">
-        <img class="store-img" src="./images/pumps.jpg" alt="משאבות הנקה" width="600" height="400">
-      </a>
-      <h6 class="desc">משאבות הנקה</h6>
-    </div>
-
-    <div class="gallery">
-      <a target="_self" href="./pumps.html">
-        <img class="store-img" src="./images/mobile.jpg" alt="אפליקציות" width="600" height="400">
-      </a>
-      <h6 class="desc">אפליקציות</h6>
-    </div>
 
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"></script>
+
+  <script type="text/x-handlebars-template" id="store-template">
+  <div class="gallery">
+    <a target="_self" href="{{page}}">
+      <img class="store-img" src="{{img}}" alt={{category}} width="600" height="400">
+    </a>
+    <h6 class="desc">{{category}}</h6>
+  </div>
+</script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="store.js" charset="UTF-8"></script>
+  <script src="index.js" charset="UTF-8"></script>
 
   </div>
 </body>
