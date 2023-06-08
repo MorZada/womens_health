@@ -1,6 +1,5 @@
-ul {
-  padding: 0;
-    list-style-type: none;
+.nav a {
+  text-decoration-color: black;
 }
 
 .title {
@@ -8,15 +7,15 @@ ul {
   margin-right: 5px;
 }
 
+ul {
+  padding: 0;
+    list-style-type: none;
+}
 
 h6.desc {
   padding: 15px;
   text-align: center;
   color: #986C4A;
-}
-
-.nav a {
-  text-decoration-color: black;
 }
 
 div.gallery {
@@ -34,6 +33,10 @@ div.gallery:hover {
   height: auto;
   max-height: 200px;
   max-width: 360px;
+}
+
+a {
+  text-decoration: none;
 }
 
 

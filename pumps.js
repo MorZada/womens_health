@@ -1,3 +1,5 @@
+var category = "משאבות הנקה"
+setTitle(category)
 
 var items = [
     {
@@ -13,10 +15,4 @@ var items = [
     
 ];
 
-var template = Handlebars.compile(document.getElementById("product-template").innerHTML);
-var itemList = document.getElementById("product-list");
-
-items.forEach(function (item) {
-    var html = template(item);
-    itemList.innerHTML += html;
-});
+setListItems(items)

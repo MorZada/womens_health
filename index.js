@@ -4,25 +4,25 @@ var items = [
         category: 'תחתוני מחזור', page: './products.html?script=period_underwear', img: "./images/period_underwear.jpg",
     },
     {
-        category: 'תחתוניות', page: './pumps.html', img: "./images/pantyliner.jpg",
+        category: 'תחתוניות', page: './products.html?script=pantyliner', img: "./images/pantyliner.jpg",
     },
     {
-        category: 'גביעוניות', page: './pumps.html', img: "./images/menstrual_cup.jpg",
+        category: 'גביעוניות', page: './products.html?script=menstrual_cup', img: "./images/menstrual_cup.jpg",
     },
     {
-        category: 'מדחום ביוץ', page: './pumps.html', img: "./images/thermometer.jpg",
+        category: 'מדחום ביוץ', page: './products.html?script=thermometer', img: "./images/thermometer.jpg",
     },
     {
-        category: 'רפידות הנקה', page: './pumps.html', img: "./images/nursing_pads.jpg",
+        category: 'רפידות הנקה', page: './products.html?script=nursing_pads', img: "./images/nursing_pads.jpg",
     },
     {
-        category: 'מאמני רצפת אגן', page: './pumps.html', img: "./images/pelvic_floor_trainer.jpg",
+        category: 'מאמני רצפת אגן', page: './products.html?script=pelvic_floor_trainer', img: "./images/pelvic_floor_trainer.jpg",
     },
     {
-        category: 'דאודורנט ללא כימיקלים', page: './pumps.html', img: "./images/deodorant.jpg",
+        category: 'דאודורנט ללא כימיקלים', page: './products.html?script=deodorant', img: "./images/deodorant.jpg",
     },
     {
-        category: 'מכנסי טיולים', page: './pumps.html', img: "./images/pants.jpg",
+        category: 'מכנסי טיולים', page: './products.html?script=pants', img: "./images/pants.jpg",
     },
     {
         category: 'משאבות הנקה', page: './products.html?script=pumps', img: "./images/pumps.jpg",

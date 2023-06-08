@@ -1,4 +1,4 @@
-var category = "אפליקציות"
+var category = "רפידות הנקה"
 setTitle(category)
 
 var items = [
@@ -16,4 +16,3 @@ var items = [
 ];
 
 setListItems(items)
-

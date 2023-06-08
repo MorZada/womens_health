@@ -14,6 +14,8 @@ function loadScript(scriptValue) {
     scriptElement.src = 'pumps.js';
   } else if (scriptValue === 'apps') {
     scriptElement.src = 'apps.js';
+  } else if (scriptValue === 'pants') {
+    scriptElement.src = 'pants.js';
   }
 
   // Append the script element to the HTML body
@@ -22,3 +24,17 @@ function loadScript(scriptValue) {
 
 // Call the function to load the script based on the value
 loadScript(scriptValue);
+
+function setTitle(category) {
+  document.getElementById("category").innerHTML = category
+}
+
+function setListItems(items) {
+  var template = Handlebars.compile(document.getElementById("product-template").innerHTML);
+  var itemList = document.getElementById("product-list");
+
+  items.forEach(function (item) {
+    var html = template(item);
+    itemList.innerHTML += html;
+  });
+}

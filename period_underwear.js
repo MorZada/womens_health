@@ -1,3 +1,5 @@
+var category = "תחתוני מחזור"
+document.getElementById("category").innerHTML = category
 
 var items = [
     {
