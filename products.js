@@ -8,15 +8,15 @@ function loadScript(scriptValue) {
   const scriptElement = document.createElement('script');
 
   // Set the source of the script based on the value
-  if (scriptValue === 'period_underwear') {
-    scriptElement.src = 'period_underwear.js';
-  } else if (scriptValue === 'pumps') {
-    scriptElement.src = 'pumps.js';
-  } else if (scriptValue === 'apps') {
-    scriptElement.src = 'apps.js';
-  } else if (scriptValue === 'pants') {
-    scriptElement.src = 'pants.js';
-  }
+  // if (scriptValue === 'period_underwear') {
+  //   scriptElement.src = 'period_underwear.js';
+  // } else if (scriptValue === 'pumps') {
+  //   scriptElement.src = 'pumps.js';
+  // } else if (scriptValue === 'apps') {
+  //   scriptElement.src = 'apps.js';
+  // } else if (scriptValue === 'pants') {
+    scriptElement.src = scriptValue + '.js';
+  // }
 
   // Append the script element to the HTML body
   document.body.appendChild(scriptElement);
